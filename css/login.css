@@ -1,0 +1,72 @@
+.login-page{
+    width: 86%;
+    background: #fff;
+    padding: 0 5% 20px 5%;
+    border-radius: 2px;
+    margin: 24px 2% 40px 2%;
+}
+.login-page .login-tit{
+ padding: 1rem 0;
+    text-align: center;
+}
+.login-page .login-input{
+   position: relative;
+}
+.login-page .login-input input{
+    width: 92%;
+    padding: 0.8rem 4%;
+    border-bottom: 1px solid #ddd;
+}
+.login-page .login-input span{
+    position: absolute;
+    top: 1rem;
+    right: 10px;
+}
+.login-page a{
+    color: #999999;
+}
+.login-page .a_active{
+    font-weight: bold;
+    color: darkred;
+}
+.login-page .login-btn[disabled]{
+    width: 100%;
+    margin: 40px auto 0 auto;
+    padding: 0.8rem 4%;
+    background: darkred;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.login-page .sign-up-msg {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #969696;
+}
+.login-page .sign-up-msg a, .login-page .sign-up-msg a:hover {
+    color: #000000;
+}
+.login-page .login-btn{
+    width: 100%;
+    margin: 40px auto 0 auto;
+    padding: 0.8rem 4%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+   opacity: 1;
+
+}
+.login-page .login-change{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #000000;
+}
+.login-page .login-content{
+    display: none;
+}

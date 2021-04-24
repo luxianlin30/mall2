@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/shopping.css">
+</head>
+<body>
+<div class="shoping-page" id="shopping">
+    <div class="header_box">
+        <div class="shopping-box">
+            <div class="box1">购物车 (<span id="countNum">4</span>)</div>
+            <div class="box2">编辑</div>
+        </div>
+    </div>
+    <div style="height:44px;"></div>
+    <div class="shopping-item">
+        <div class="shopping-name" onclick="singleAll(this)">
+            <div class="shopping-check" >
+                <input type="checkbox" class="checkbox_css" name="id">
+            </div>
+            九月的小铺
+        </div>
+        <div class="goods-item">
+            <div class="good-list">
+                <div class="store-goods">
+                    <div class="shopping-check" onclick="check_goods(this)">
+                        <input type="checkbox" class="checkbox_css" name="id">
+                    </div>
+                    <!--<span class="shopping-select"></span>-->
+                    <img src="img/img3.jpg" alt="">
+                    <div class="good-property">
+                        <div class="shopping-name">长裙女连衣裙打底裙气质百搭 中长款吊带2019春夏新款韩版复古格子群</div>
+                        <div class="goods-size"><span>红色;S</span></div>
+                        <div class="goods-footer">
+                            <div class="goods-price">￥<span>198</span></div>
+                            <div class="goods-count">
+                                <span onclick="change(this,-1)">-</span><input type="text" value="1" name="num"><span onclick="change(this,+1)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subListTitle right">
+                    <a class="subRight collection" onclick="Delete()">收藏</a>
+                    <a class="subRight delete" onclick="Delete(this)">删除</a>
+                </div>
+            </div>
+            <div class="good-list">
+                <div class="store-goods">
+                    <div class="shopping-check" onclick="check_goods(this)">
+                        <input type="checkbox" class="checkbox_css" name="id">
+                    </div>
+                    <!--<span class="shopping-select"></span>-->
+                    <img src="img/img1.jpg" alt="">
+                    <div class="good-property">
+                        <div class="shopping-name">长裙女连衣裙打底裙气质百搭 中长款吊带2019春夏新款韩版复古格子群</div>
+                        <div class="goods-size"><span>红色;S</span></div>
+                        <div class="goods-footer">
+                            <div class="goods-price">￥<span>198</span></div>
+                            <div class="goods-count">
+                                <span onclick="change(this,-1)">-</span><input type="text" value="1" name="num"><span onclick="change(this,+1)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subListTitle right">
+                    <a class="subRight collection" onclick="Delete()">收藏</a>
+                    <a class="subRight delete" onclick="Delete(this)">删除</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="shopping-account" >
+            <div class="shopping-check" onclick="checkAll(this)" id="check_all">
+                <input type="checkbox" class="checkbox_css">
+            </div>
+            全选
+        <div class="shopping-count">合计:
+            <div class="count-color">￥<span id="total">0</span></div>
+            <div class="total" onclick="Count()">结算 （<span id="count">0</span>）</div>
+        </div>
+    </div>
+    <div class="footer-icon border-top">
+        <div class="home ">
+            <a href="index.html">
+            <div><span class="iconfont icon-shouye"></span></div>
+            <div>首页</div>
+        </a></div>
+        <div class="sort ">
+            <a href="sort.html">
+                <div>
+                    <span class="iconfont icon-fenlei"></span>
+                </div>
+                <div>分类</div>
+            </a>
+        </div>
+        <div class="buy icon-active"><a href="">
+            <div><span class="iconfont icon-baobao"></span></div>
+            <div>购物车</div>
+        </a>
+        </div>
+        <div class="stage"><a href="personal-center.html">
+            <div><span class="iconfont icon-wode"></span></div>
+            <div>我的</div>
+        </a></div>
+    </div>
+</div>
+</body>
+<script src="js/sideslipMob.js"></script>
+<script src="js/shopping.js"></script>
+</html>

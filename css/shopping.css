@@ -1,0 +1,197 @@
+body {
+    background: #f4f4f4;
+}
+.shoping-page{
+    padding-bottom: 100px;
+}
+.shoping-page .shopping-name{
+   display: flex;
+}
+.shoping-page .shopping-item {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.shoping-page .shopping-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.shoping-page .goods-size {
+    margin-top: 5px;
+}
+
+.shoping-page .goods-size span {
+    background: #f4f4f4;
+    color: #999999;
+}
+
+.shoping-page .shopping-select {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/select.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.shoping-page .good-property {
+    flex: 2;
+}
+
+.shoping-page .goods-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.header_box {
+    height: 44px;
+    position: fixed;
+    width: 94%;
+    padding: 0 3%;
+    line-height: 44px;
+    background: #ffffff;
+    top: 0;
+    z-index: 999999;
+}
+.box1{
+    text-align: center;width: 60%;margin: 0 auto
+}
+.box2{
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    display: inline;
+    top: 0;
+    right: -20px;
+}
+.shoping-page  .shopping-box{
+    position: relative;
+}
+.shoping-page .goods-count span {
+    border: 1px solid #f4f4f4;
+    padding: 2px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.shoping-page .good-list{
+   display: flex;
+    position: relative;
+}
+.shoping-page .goods-count span + span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.shoping-page .store-goods{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    z-index: 1;
+    margin: 5px 0;
+    transform: translate3d(0px,0px,0px);
+    /*规定应用过渡的CSS属性*/
+    transition-property:transform;
+    /*规定应用过渡所花费的时间*/
+    transition-duration: 0s;
+    /*规定过渡效果从何开始，默认是0*/
+    transition-delay: 0;
+    /*规定过渡的时间曲线*/
+    transition-timing-function: linear;
+}
+.subListTitle {
+    position: absolute;
+    line-height: 89px;
+}
+.right > .subRight {
+    display: block;
+    float: left;
+    padding: 0 12px;
+}
+
+.collection {
+    background-color: #c7c7cc;
+    color: white;
+}
+.update {
+    background-color: #ffc900;
+    color: white;
+}
+.delete {
+    background-color: #ef473a;
+    color: white;
+}
+.shoping-page .shopping-check {
+    width: 20px;
+    height: 20px;
+    /*background: url("../img/pay_selected.png") no-repeat center;*/
+    background: url("../img/select.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.shoping-page .checkbox_css {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    opacity: 0;
+    margin-right: 10px;
+}
+
+.shoping-page .goods-count input {
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    width: 40px;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.shoping-page .goods-price {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.shoping-page .footer-icon {
+    background: #f4f4f4;
+}
+
+.shoping-page .shopping-account {
+    background: #ffffff;
+    position: fixed;
+    bottom: 46.5px;
+    width: 94%;
+    height: 46.5px;
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.shoping-page .shopping-count {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.shoping-page .shopping-account div {
+    display: flex;
+    align-items: center;
+}
+
+.count-color {
+    color: darkred;
+}
+
+.shoping-page .total {
+    background: darkred;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #ffffff;
+}
